@@ -18,11 +18,11 @@ Welcome to my cybersecurity portfolio! I'm currently a university student studyi
 ## 🌐 Connect With Me
 
 <p align="left">
-  <a href="https://tryhackme.com/p/EwanLoy" target="_blank">
-    <img height="40" src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/FF0000/external-tryhackme-an-interactive-cybersecurity-training-platform-logo-shadow-tal-revivo.png" alt="TryHackMe Logo" />
+  <a href="https://tryhackme.com/p/ewanloy" target="_blank">
+    <img height="40" src="https://github.com/EwanLoy/Ewan-Loy/blob/main/assets/tryhackme.png" alt="TryHackMe Logo" />
   </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/ewan-loy/" target="_blank">
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/ewan-loy-0b0aa62b3/" target="_blank">
     <img height="40" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo" />
   </a>
 </p>
