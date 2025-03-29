@@ -1,6 +1,6 @@
 # 🛡️ Cybersecurity Portfolio - Ewan Loy
 
-Welcome to my cybersecurity portfolio! I'm currently a university student studyin Cybersecurity and Forensic Computing, with a strong interest in becoming a **Security Operations Center (SOC) Analyst**. This repository contains my academic, personal, and practical projects
+Welcome to my cybersecurity portfolio! I'm currently a university student studying Cybersecurity and Forensic Computing, with a strong interest in becoming a **Security Operations Center (SOC) Analyst**. This repository contains my academic, personal, and practical projects
 
 ---
 
