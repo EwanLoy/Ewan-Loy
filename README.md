@@ -12,5 +12,6 @@ Welcome to my cybersecurity portfolio! I'm currently a university student studyi
 - 🧠 Keen to learn log analysis, threat detection, SIEM workflows, and incident respons
 ---
 
-## 📂 Repository Structure
-
+## Projects
+- TryHackMe SOC Level 1
+---
