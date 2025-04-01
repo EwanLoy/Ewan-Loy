@@ -13,6 +13,7 @@ Welcome to my cybersecurity portfolio! I'm currently a university student studyi
 
 ## Projects
 - - [TryHackMe SOC Level 1](./SocLevel1)
+- - [Home SOC Lab](./HomeSocLab)
  
 ---
 
