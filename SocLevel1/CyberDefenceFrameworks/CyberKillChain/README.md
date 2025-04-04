@@ -11,7 +11,6 @@
 - [Task 7: Command & Control](#task-7-command--control)
 - [Task 8: Actions on Objectives (Exfiltration)](#task-8-actions-on-objectives-exfiltration)
 - [Task 9: Practice Analysis](#task-9-practice-analysis)
-- [Task 10: Conclusion](#task-10-conclusion)
 ---
 
 ## Task 1: Introduction
@@ -46,40 +45,87 @@ Reconnaisance is discovering and collecting information on the system and the vi
 ---
 
 ## Task 3: Weaponization
-Description of how attackers pair exploit code with delivery mechanisms to craft payloads.
+In this stage, attackers create a weapon that combines malware, and exploit into a deliverable payload. Most attackers use automated tools or purchase malware from the Dark Web. More sophisticated APT groups create custom malware to avoid detection
+
+**Terminology**
+  - **Malware:** A program or software designed to damage, disrupt, or gain unauthorised access to a computer
+  - **Exploit:** A program or code that takes advantage of the vulnerability or flaw in the application or system
+  - **Payload** A malicious code that the attacker runs on the system
+
+**In this Phase, the attacker would:**
+  - Create an infected Microsoft Office document containing a malicious macro or VBA (Visual Basic for Applications) scripts
+  - Create a malicious payload or a very sophisticated worm, implant it on the USB drives, and then distribute them in public
+  - Choose Command and Control (C2) techniques for executing the commands on the victim's machine or deliver more payloads
+  - Select a backdoor implant (the way to access the computer system, which includes bypassing the security mechanisms
 
 ---
 
 ## Task 4: Delivery
-Methods used to deliver the payload, such as phishing emails, USBs, or drive-by downloads.
+The delivery phase is where the adversary chooses a method for transmitting the payload or malware, choosing from:
+  - **Phishing emails:** Used in broad and highly targeted attacks (Spear phishing). The attacker may impersonate a known contact or brand, embedding the payload in a document or link
+  - **Malicious USB drops:** Attackers may leav infected USB drives in public areas or send them directly to the company, disguised as promotional gifts
+  - **Watering Hole Attacks:** Attackers compromise a website frequently visited by the targeted audience, embedding malware that triggers a drive-by download when visited
 
 ---
 
 ## Task 5: Exploitation
-How the payload is executed on the target, often exploiting a vulnerability or tricking the user.
+- In the exploitation phase, the attacker executes their payload, taking advantage of a vulnerability to gain initial access to the victim's system
+- After gaining access, the attacker could exploit software, system, or server-based vulnerabilities to escalate privileges or move laterally through the network
+- The attacker couls also exploit a zero-day-exploit
+
+**Examples of how an attacker carries out exploitation**
+  - Victim triggers the exploit by opening the email attachment or clicking on a malicious link
+  - Using a zero-day exploit
+  - Exploit software, hardware, or even human vulnerabilities
+  - Attacker triggers the exploit for server-based vulnerabilities
 
 ---
 
 ## Task 6: Installation
-Overview of how malware persists on the system through registry changes, scheduled tasks, or implants.
+In the installation phase, the attacker deploys a persistent backdoor so they don't lose access to the system, persistence can be achieved through:  
+- Installing a web shell on the server
+- Installing a backdoor on the victim's machine
+- Creating or modifying Windows Services
+- Adding the entry to the "run keys" for the malicious payload in the Registry or Startup folder
+In this phase, an attacker can also use timestomping to avoid detection and make the malware appear as a part of a legitimate program
 
 ---
 
 ## Task 7: Command & Control
-Techniques used by attackers to establish a communication channel with the compromised system.
+In this phase, the attacker opens up the C2 (Command & Control) channel through the malware to remotely control and manipulate the victim
+  - This term is also known as C&C or C2 Beaconing as a type of malicious communication between a C&C server and malware on the infected host
+**Common C2 Channels**
+  - **HTTP/HTTPS (Port 80 & 443):** Blends in with legitimate traffic
+  - **DNS Tunneling:** Infected machine makes constant DNS requests to the DNS server that belongs to an attacker
+  - **IRC (Internet Relay Chat):** Until recently, was the traditional C2 channel used by attackers but modern security solutions can easily detect malicious IRC traffic
 
 ---
 
 ## Task 8: Actions on Objectives (Exfiltration)
-What the attacker does post-access: data theft, privilege escalation, lateral movement, or destruction.
+After going through six phases of the attack, the attacker reaches their end goal, which means taking action on the original objectives.
+
+With hands-on keyboard access, the attacker can achieve the following:
+  - Harvest user credentials
+  - Privilege Escalation
+  - Internal Reconnaissance
+  - Lateral Movement
+  - Collect and exfiltrate sensitive data
+  - Delete the backups and shadow copies
+  - Overwrite or corrupt data
 
 ---
 
 ## Task 9: Practice Analysis
-Brief reflection on the hands-on exercise and how it reinforced understanding of each kill chain phase.
+This task involves applying what I had learned across Cyber Kill Chain to a real-world breach: the Target cyber attack of 2013 
+**Scenario**
+The infamous Target cyber-attack, which led to one of the largest data breaches in history took place on November 27, 2013.
+
+On December 19th, 2013, Target released a statement confirming the breach, stating that approximately 40 million credit and debit card accounts were impacted between Nov. 27 and Dec. 15, 2013. Target had to pay the fine of $18.5 million under the terms of the multistate settlement agreement. This is considered to be the largest data-breach settlement in history.
+
+**Task**
+Map the phases of the attack to their corresponding stage in the Kill Chain
 
 ---
 
-## Task 10: Conclusion
-Final thoughts on the importance of detecting attacks early in the chain and breaking the adversary’s workflow.
+
 
