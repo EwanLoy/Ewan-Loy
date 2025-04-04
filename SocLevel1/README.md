@@ -1,7 +1,13 @@
 # 🧠 TryHackMe SOC Level 1 Path
 
-This folder tracks my progress through the [SOC Level 1 Path](https://tryhackme.com/path/outline/soclevel1) on TryHackMe.
+This repository documents my personal learning journey through the [SOC Level 1 Path](https://tryhackme.com/path/outline/soclevel1) on **TryHackMe**.
+
+The aim of this repository is not to create step-by-step walkthroughs, but to track my own progress and help me:
+  - Reflect on what I've learned
+  - Reinforce key concepts
+  - Build a refernce I can return to and expand as I continue to learn 
 ---
+## Path Progress
 | Module | Status | 
 |----------|----------|
 | [Cyber Defence Frameworks](./CyberDefenceFrameworks/README.md) | ✅ Completed | 
