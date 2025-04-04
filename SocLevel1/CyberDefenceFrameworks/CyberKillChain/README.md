@@ -25,12 +25,23 @@
     - Installation
     - Command & Control
     - Actions on Objectives
-**Learning Objectives:** Learn each phase of the Cyber Kill Chain Framework, the advantages and disadvantages of the traditional cyber kill chain  
+**Learning Objectives:** Learn each phase of the Cyber Kill Chain Framework, the advantages and disadvantages of the traditional cyber kill chain
 
 ---
 
 ## Task 2: Reconnaissance
-Summary of how attackers gather information about targets using OSINT, scanning, or social engineering.
+Reconnaisance is discovering and collecting information on the system and the victim. This is the planning phase for adversaries and often involves the use of OSINT (Open Source Intelligence) techniques
+
+**What attackers do in this phase**
+  - Collect information on an organisation or individuals from publicly available sources
+  - Study employee names, email addresses, technologies in use, and infrastructure layout
+  - Use tools to perform email harvesting, subdomain discovery, and metadata collection
+**Common tools**
+  - **theHarvester** for gathering emails, domains, IPs, and subdomains
+  - **Hunter.io** for email lookup and domain level intelligence
+  - **OSINT Framework** a collection of categorised tools for data discovery
+  - **Social Media** such as LinkedIn and Facebook to gather information used in a phishing attack
+ 
 
 ---
 
