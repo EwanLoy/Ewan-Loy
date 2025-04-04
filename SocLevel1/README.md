@@ -1,4 +1,4 @@
-# 🧠 TryHackMe SOC Level 1 Path
+# TryHackMe SOC Level 1 Path
 
 This repository documents my personal learning journey through the [SOC Level 1 Path](https://tryhackme.com/path/outline/soclevel1) on **TryHackMe**.
 
