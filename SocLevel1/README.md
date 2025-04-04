@@ -4,11 +4,11 @@ This folder tracks my progress through the [SOC Level 1 Path](https://tryhackme.
 ---
 | Module | Status | 
 |----------|----------|
-| [Cyber Defence Frameworks](./CyberDefenceFrameworks/) | ✅ Completed | 
-| [Cyber Threat Intelligence](./CyberThreatIntelligence/) | ✅ Completed | 
-| [Network Security & Traffic Analysis](./NetworkSecurityAndTrafficAnalysis/) | 🔄 In Progress |
-| Endpoint Security Monitoring    | 🔲 Not Started | 
-| Security Information and Event Management    | 🔲 Not Started |
-| Digital Forensics & Incident Response    | 🔲 Not Started | 
+| [Cyber Defence Frameworks](./CyberDefenceFrameworks/README.md) | ✅ Completed | 
+| [Cyber Threat Intelligence](./CyberThreatIntelligence/README.md) | ✅ Completed | 
+| [Network Security & Traffic Analysis](./NetworkSecurityAndTrafficAnalysis/READM.md) | 🔄 In Progress |
+| Endpoint Security Monitoring | 🔲 Not Started | 
+| Security Information and Event Management | 🔲 Not Started |
+| Digital Forensics & Incident Response | 🔲 Not Started | 
 | Phishing | 🔲 Not Started |
 | SOC Level 1 Capstone Challenges | 🔲 Not Started | 
