@@ -12,7 +12,7 @@ The aim of this repository is not to create step-by-step walkthroughs, but to tr
 |----------|----------|
 | [Cyber Defence Frameworks](./CyberDefenceFrameworks/README.md) | ✅ Completed | 
 | [Cyber Threat Intelligence](./CyberThreatIntelligence/README.md) | ✅ Completed | 
-| [Network Security & Traffic Analysis](./NetworkSecurityAndTrafficAnalysis/READM.md) | 🔄 In Progress |
+| [Network Security & Traffic Analysis](./NetworkSecurityAndTrafficAnalysis/README.md) | 🔄 In Progress |
 | Endpoint Security Monitoring | 🔲 Not Started | 
 | Security Information and Event Management | 🔲 Not Started |
 | Digital Forensics & Incident Response | 🔲 Not Started | 
