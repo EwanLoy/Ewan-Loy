@@ -12,8 +12,8 @@ Welcome to my cybersecurity portfolio! I'm currently a university student studyi
 ---
 
 ## Projects
-- - [TryHackMe SOC Level 1](./SocLevel1/README.md)
-- - [Home SOC Lab](./HomeSocLab/README.md)
+- [TryHackMe SOC Level 1](./SocLevel1/README.md)
+- [Home SOC Lab](./HomeSocLab/README.md)
  
 ---
 
