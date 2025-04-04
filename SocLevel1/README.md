@@ -5,7 +5,7 @@ This repository documents my personal learning journey through the [SOC Level 1 
 The aim of this repository is not to create step-by-step walkthroughs, but to track my own progress and help me:
   - Reflect on what I've learned
   - Reinforce key concepts
-  - Build a refernce I can return to and expand as I continue to learn 
+  - Build a reference I can return to and expand as I continue to learn 
 ---
 ## Path Progress
 | Module | Status | 
