@@ -4,7 +4,7 @@ This folder tracks my progress through the [SOC Level 1 Path](https://tryhackme.
 ---
 | Module | Status | 
 |----------|----------|
-| [Cyber Defence Frameworks]()    | ✅ Completed | 
+| [Cyber Defence Frameworks](SocLevel1/CyberDefenceFrameworks/README.md)    | ✅ Completed | 
 | Cyber Threat Intelligence    | ✅ Completed | 
 | Network Security & Traffic Analysis    | 🔄 In Progress |
 | Endpoint Security Monitoring    | 🔲 Not Started | 
