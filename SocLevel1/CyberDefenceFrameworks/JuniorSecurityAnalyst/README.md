@@ -37,10 +37,25 @@ As a junior SOC analyst, your role is a triage specialist and you will spend alo
     - Works on more advances investigations
     - Performs advanced threat hunting and adversary research
     - Malware Reversing
+
 **Questions**
--         
+  -  What will be your role as a Junior Security Analyst?
+    - Triage Specialist         
 ## Task 2: Security Operations Center (SOC)
-...your notes...
+The core function of a SOC is to investigate, monitor, prevent, and respond to threats in the cyber realm 24/7. The number of people working in a SOC varies depending on the size of the organisation
+
+**Responsibilities of the SOC**
+  - Ticketing
+  - Log Collection
+  - Knowledge Base
+  - Research and Development
+  - Aggregation and Correlation
+  - Threat Intelligence
+  - SIEM (Security Information and Event Management)
+  - Reporting
+
+**Preparation and Prevention**
+  - 
 
 ## Task 3: A Day in the Life of a Junior SOC Analyst
 ...your notes...
