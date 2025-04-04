@@ -1,4 +1,5 @@
 # Pyramid ofPain
+This room introduced the Pyramid of Pain, a framework for understanding how much “pain” different types of indicators cause to an attacker when detected or blocked. Below is a breakdown of each type of indicator, and why some are more effective for defenders than others.
 
 ## Table of contents
 
@@ -13,8 +14,8 @@
 - [Task 7: Tools (Challenging)](#task-7-tools-challenging)
 - [Task 8: TTPs (Tough)](#task-8-ttps-tough)
 - [Task 9: Practical - The Pyramid of Pain](#task-9-practical---the-pyramid-of-pain)
-- [Task 10: Conclusion](#task-10-conclusion)
-- --
+
+---
 
 ## Task 1: Introduction
 The Pyramid Of Pain is a well-known concept used in cybersecurity solutions such as Cisco Security, SentinelOne, and SOCRadar to improve the effectiveness of Cyber Threat Intelligence, threat hunting, and incident response
@@ -76,28 +77,35 @@ Domain names are harder for an attacker to change as they would need to purchase
 ---
 
 ## Task 5: Host Artifacts (Annoying)
+  - Host Artifacts are the traces or observables that attackers leave on the system, such as registry values, suspicious process execution, attack patterns or IOCs, files dropped by malicious applications, or anything exclusive to the current threat
+  - These atrifacts are harder for adversaries to change than hashes or IPs, making them more valuable for detection and defense
 
 ---
 
 ## Task 6: Network Artifacts (Annoying)
-Analysis of network indicators such as specific traffic patterns, ports, or beaconing behaviors.
+  - A network artifact can be a user-agent string, C2 information, or URI patterns followed by the HTTP POST requests
+  - Network artifacts can be be detected in Wireshark PCAPs by using a network analyser tool such as Tshark or exploing IDS logging from a source such as Snort
+  - If you can detect custom User-Agent strings an attacker is using, you might be able to block them, creating more obstacles for them
 
 ---
 
 ## Task 7: Tools (Challenging)
-Reflection on the use of attacker tools and how identifying them creates high defensive value.
+  - At this level, detection begins to truly disrupt an attacker. Tools like malware droppers, backdoors, and custom binaries take time, resources, and expertise to develop or configure.
+  - Antivirus signatures, detection rules, and YARA rules can be used against attackers at this stage
+  - Malware Bazaar and Malshare are good resources to provide access to samples, malicious feeds, and YARA results
+  - SOC Prime Threat Detection Marketplace can be used to find detection rules
+  - Fuzzy hashing can also be used to find similarities in malware files using a tool like SSdeep
 
 ---
 
 ## Task 8: TTPs (Tough)
-Understanding attacker behaviors and techniques that are deeply ingrained and difficult to change.
+  - TTP's stands for Tactics, Techniques & Procedures. This includes the whole Mitre ATT&CK matrix, which means all the steps taken by an adversary to achieve his goal
+  - If you can detect TTP's quickly, you leave the adversary almost no chance to fight back
 
 ---
 
 ## Task 9: Practical - The Pyramid of Pain
-Details from the hands-on exercise applying the pyramid to classify and prioritize IOCs.
-
+  - This task involved matching various indicators to thier correct tier in the pyramid of pain
 ---
 
-## Task 10: Conclusion
-Final thoughts on the value of the Pyramid of Pain and how it guides defensive strategies.
+
